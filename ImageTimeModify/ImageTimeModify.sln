@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageTimeModify", "ImageTimeModify.csproj", "{021F6419-C3BB-444D-8D4F-54B7ACDF6843}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{021F6419-C3BB-444D-8D4F-54B7ACDF6843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021F6419-C3BB-444D-8D4F-54B7ACDF6843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021F6419-C3BB-444D-8D4F-54B7ACDF6843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021F6419-C3BB-444D-8D4F-54B7ACDF6843}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B04DA4E7-338A-4CDC-A604-FC0E03DAE177}
+	EndGlobalSection
+EndGlobal
