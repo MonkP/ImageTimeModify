@@ -1,3 +1,5 @@
 **/.vs
 /ImageTimeModify/bin
 /ImageTimeModify/obj
+/SetImageDatetime/obj
+/SetImageDatetime/bin
