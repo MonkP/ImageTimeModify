@@ -1,0 +1,1 @@
+ImageTimeModify.exe "要处理的路径" "1992-01-01"

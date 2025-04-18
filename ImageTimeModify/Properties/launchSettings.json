@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ImageTimeModify": {
+      "commandName": "Project",
+      "commandLineArgs": "D:\\Pictures\\照片\\老照片\\爷爷家小狗相册\\png\r\n1992-1-1"
+    }
+  }
+}
