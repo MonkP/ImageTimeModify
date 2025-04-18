@@ -39,6 +39,10 @@
             this.Col_Status = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label2 = new System.Windows.Forms.Label();
             this.btnExec = new System.Windows.Forms.Button();
+            this.btnSelectOutputFolder = new System.Windows.Forms.Button();
+            this.txtOutputPath = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -110,6 +114,7 @@
             this.FileListView.UseCompatibleStateImageBehavior = false;
             this.FileListView.View = System.Windows.Forms.View.Details;
             this.FileListView.DragDrop += new System.Windows.Forms.DragEventHandler(this.FileListView_DragDrop);
+            this.FileListView.DragEnter += new System.Windows.Forms.DragEventHandler(this.FileListView_DragEnter);
             // 
             // Col_FileName
             // 
@@ -145,11 +150,41 @@
             this.btnExec.UseVisualStyleBackColor = true;
             this.btnExec.Click += new System.EventHandler(this.btnExec_Click);
             // 
+            // btnSelectOutputFolder
+            // 
+            this.btnSelectOutputFolder.Location = new System.Drawing.Point(660, 7);
+            this.btnSelectOutputFolder.Name = "btnSelectOutputFolder";
+            this.btnSelectOutputFolder.Size = new System.Drawing.Size(75, 23);
+            this.btnSelectOutputFolder.TabIndex = 7;
+            this.btnSelectOutputFolder.Text = "选择目录";
+            this.btnSelectOutputFolder.UseVisualStyleBackColor = true;
+            this.btnSelectOutputFolder.Click += new System.EventHandler(this.btnSelectOutputFolder_Click);
+            // 
+            // txtOutputPath
+            // 
+            this.txtOutputPath.Location = new System.Drawing.Point(389, 7);
+            this.txtOutputPath.Name = "txtOutputPath";
+            this.txtOutputPath.Size = new System.Drawing.Size(265, 21);
+            this.txtOutputPath.TabIndex = 5;
+            this.txtOutputPath.TextChanged += new System.EventHandler(this.txtOutputPath_TextChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(318, 13);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(65, 12);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "输出目录：";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(752, 441);
+            this.Controls.Add(this.btnSelectOutputFolder);
+            this.Controls.Add(this.txtOutputPath);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnExec);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.targetTime);
@@ -178,6 +213,10 @@
         private System.Windows.Forms.ColumnHeader Col_Status;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnExec;
+        private System.Windows.Forms.Button btnSelectOutputFolder;
+        private System.Windows.Forms.TextBox txtOutputPath;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
     }
 }
 
